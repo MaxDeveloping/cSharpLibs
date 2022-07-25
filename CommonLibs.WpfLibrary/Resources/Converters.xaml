@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:converters="clr-namespace:CommonLibs.WpfLibrary.Converters">
+
+    <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverterInverted" InvertVisibility="True"/>
+
+    <converters:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+
+    <converters:MultiVisibilityConverter x:Key="MultiVisibilityConverter"/>
+
+    <converters:NotNullToVisibilityConverter x:Key="NotNullToVisibilityConverter"/>
+    <converters:NotNullToVisibilityConverter x:Key="NotNullToVisibilityConverterInverted" InvertVisibility="True"/>
+
+    <converters:NotNullToBooleanConverter x:Key="NotNullToBooleanConverter"/>
+    <converters:NotNullToBooleanConverter x:Key="NotNullToBooleanConverterInverted" InvertResult="True"/>
+
+    <converters:ZeroToBooleanConverter x:Key="ZeroToBooleanConverter"/>
+</ResourceDictionary>
